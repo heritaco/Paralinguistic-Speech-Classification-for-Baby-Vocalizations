@@ -1,2 +1,5 @@
+Instructor:
+Daniel Bourke
+
 Abstract:
 The module consolidates a complete spoken-language processing workflow. You converted audio files to numerical waveforms with Python/NumPy, prepared and segmented audio using PyDub, and transcribed speech to text with `speech_recognition`, noting robustness issues across speakers and languages. You then assembled a proof-of-concept NLP pipeline: sentiment analysis with NLTK, named-entity recognition with spaCy, and text classification using scikit-learn. The capstone task transcribes a final “congratulations.wav.” Suggested next step: build a local app leveraging `Microphone` for live capture. Outcome: practical foundations for end-to-end speech processing and deployment-ready experimentation.
