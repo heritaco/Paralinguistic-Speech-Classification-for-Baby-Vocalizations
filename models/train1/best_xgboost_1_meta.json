@@ -1,0 +1,26 @@
+{
+  "region": "1",
+  "best_name": "XGBoost",
+  "paths": {
+    "calibrated": "models\\best_xgboost_1.joblib",
+    "uncalibrated": "models\\best_xgboost_1_uncal.joblib",
+    "label_encoder": "models\\best_xgboost_1_label_encoder.joblib",
+    "meta": "models\\best_xgboost_1_meta.json"
+  },
+  "scores": {
+    "best_cv_score_acc": 0.87008547008547,
+    "oof_acc": 0.8702290076335878,
+    "oof_f1_macro": 0.8426121944930722
+  },
+  "classes": [
+    "1.0",
+    "2.0",
+    "3.0",
+    "4.0",
+    "5.0"
+  ],
+  "n_train": 131,
+  "n_infer": 40,
+  "saved_at": "2025-10-16T15:15:28",
+  "target_column": "clase"
+}
